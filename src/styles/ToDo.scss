@@ -1,0 +1,33 @@
+@import "./variable.scss";
+
+.todosection {
+  width: 100%;
+  height: 200px;
+  background-color: $Browncolor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .todotitle {
+    color: $whitecolor;
+    font-size: $TitleFontsize;
+  }
+  .inputsec {
+    width: 100%;
+    text-align: center;
+  }
+  .todoinput {
+    border: none;
+    width: 40%;
+    height: 34px;
+    padding-left: 10px;
+  }
+  .todoinput::placeholder {
+    padding-left: 10px;
+  }
+
+  .todobutton {
+    @include button1(10%, 36px);
+    cursor: pointer;
+  }
+}

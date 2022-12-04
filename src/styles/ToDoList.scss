@@ -1,0 +1,67 @@
+@import "./variable.scss";
+
+.listtitle {
+  font-size: $listtitlesize;
+  font-style: italic;
+  font-weight: 100;
+  padding-left: 30px;
+}
+ul {
+  list-style-type: none;
+  width: 100%;
+  padding-left: 0px;
+}
+li {
+  display: flex;
+}
+li:nth-child(odd) {
+  background-color: $whitecolor;
+}
+li:nth-child(even) {
+  background-color: $lightgraycolor;
+}
+.todoitemli {
+  padding: 10px 0px 10px 20px;
+}
+.todoitem {
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+}
+
+.title-line {
+  text-decoration: line-through;
+  color: $graycolor;
+}
+
+.todoitembtn {
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+  transition: transform 0.7s ease-in-out;
+  margin-left: 800px;
+}
+.todoitembtn:hover {
+  transform: rotate(360deg);
+}
+.closebtnimg {
+  width: 10px;
+  height: 10px;
+}
+
+.nodataerror {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: $blackcolor;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid $Browncolor;
+  padding: 0;
+}

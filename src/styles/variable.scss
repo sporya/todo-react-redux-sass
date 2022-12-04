@@ -1,0 +1,20 @@
+$Browncolor: rgb(122, 95, 59);
+$whitecolor: white;
+$graycolor: rgb(165, 165, 165);
+$lightgraycolor: rgb(196, 196, 196);
+$blackcolor: black;
+
+$TitleFontsize: 30px;
+$listtitlesize: 15px;
+
+@mixin button1($w, $h) {
+  border: none;
+  width: $w;
+  height: $h;
+  color: $graycolor;
+}
+@mixin button2 {
+  border: none;
+  background-color: transparent;
+  color: $blackcolor;
+}

@@ -1,0 +1,75 @@
+.listtitle {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 100;
+  padding-left: 30px;
+}
+
+ul {
+  list-style-type: none;
+  width: 100%;
+  padding-left: 0px;
+}
+
+li {
+  display: flex;
+}
+
+li:nth-child(odd) {
+  background-color: white;
+}
+
+li:nth-child(even) {
+  background-color: rgb(196, 196, 196);
+}
+
+.todoitemli {
+  padding: 10px 0px 10px 20px;
+}
+
+.todoitem {
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+}
+
+.title-line {
+  text-decoration: line-through;
+  color: rgb(165, 165, 165);
+}
+
+.todoitembtn {
+  border: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: inherit;
+  transition: transform 0.7s ease-in-out;
+  margin-left: 800px;
+}
+
+.todoitembtn:hover {
+  transform: rotate(360deg);
+}
+
+.closebtnimg {
+  width: 10px;
+  height: 10px;
+}
+
+.nodataerror {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid rgb(122, 95, 59);
+  padding: 0;
+}/*# sourceMappingURL=ToDoList.css.map */

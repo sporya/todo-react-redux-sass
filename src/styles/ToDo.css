@@ -1,0 +1,39 @@
+.todosection {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(122, 95, 59);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.todosection .todotitle {
+  color: white;
+  font-size: 30px;
+}
+.todosection .inputsec {
+  width: 100%;
+  text-align: center;
+}
+.todosection .todoinput {
+  border: none;
+  width: 40%;
+  height: 34px;
+  padding-left: 10px;
+}
+.todosection .todoinput::-moz-placeholder {
+  padding-left: 10px;
+}
+.todosection .todoinput:-ms-input-placeholder {
+  padding-left: 10px;
+}
+.todosection .todoinput::placeholder {
+  padding-left: 10px;
+}
+.todosection .todobutton {
+  border: none;
+  width: 10%;
+  height: 36px;
+  color: rgb(165, 165, 165);
+  cursor: pointer;
+}/*# sourceMappingURL=ToDo.css.map */

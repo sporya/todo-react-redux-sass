@@ -1,0 +1,27 @@
+@import "./variable.scss";
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 90px;
+  background-color: $graycolor;
+  height: 40px;
+  width: 93%;
+  position: fixed;
+  bottom: 0;
+}
+.clearbutton {
+  @include button1(100%, 26px);
+  cursor: pointer;
+}
+.button2 {
+  @include button2;
+  cursor: pointer;
+  font-weight: 300;
+}
+.button2active {
+  @include button2;
+  font-weight: 700;
+}
